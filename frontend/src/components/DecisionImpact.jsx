@@ -12,7 +12,11 @@ export default function DecisionImpact({ data }) {
   const rows = data.counterfactuals || [];
   return (
     <div className="panel section">
-      <h2>Decision impact <span className="pill">counterfactual deltas vs. baseline</span></h2>
+      <h2>What-if analysis <span className="pill">one tweak at a time</span></h2>
+      <p className="muted" style={{ marginTop: -8, marginBottom: 10, fontSize: 12 }}>
+        Each row shows what happens if you change <i>one</i> habit. Green numbers = good change,
+        red = bad. The row with the biggest <b>Δ success</b> is usually the highest-leverage habit to change.
+      </p>
       <table className="cf-table">
         <thead>
           <tr>

@@ -64,6 +64,19 @@ label.field input, label.field select {
   border: 1px solid var(--border); border-radius: 8px; outline: none;
 }
 label.field input:focus, label.field select:focus { border-color: var(--accent); }
+label.field small.hint {
+  display: block; margin-top: 4px; font-size: 11px;
+  color: #6b7785; line-height: 1.45;
+}
+
+.metric-note {
+  margin-top: 6px; font-size: 12px; line-height: 1.45;
+  color: var(--muted);
+}
+code {
+  background: var(--panel-2); padding: 1px 5px; border-radius: 4px;
+  font-size: 11px;
+}
 
 .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 

@@ -1,4 +1,4 @@
-"""FastAPI routes for LifeOS v2."""
+"""FastAPI routes for LifeOS."""
 from __future__ import annotations
 
 from typing import Any, Literal, Optional
@@ -119,7 +119,7 @@ def _run_engine(req: SimulateRequest) -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 @router.get("/health")
 def health() -> dict[str, str]:
-    return {"status": "ok", "service": "LifeOS v2"}
+    return {"status": "ok", "service": "LifeOS"}
 
 
 @router.post("/simulate")

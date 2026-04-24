@@ -1,4 +1,4 @@
-"""Deterministic parameters for LifeOS v2 simulation engine.
+"""Deterministic parameters for LifeOS simulation engine.
 
 All thresholds, weights and ranges live here so the behaviour of the
 system is transparent, auditable and tunable without touching logic.

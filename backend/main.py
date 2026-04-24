@@ -10,7 +10,7 @@ from .memory import storage
 
 def create_app() -> FastAPI:
     app = FastAPI(
-        title="LifeOS v2 — Counterfactual Decision Engine",
+        title="LifeOS — Counterfactual Decision Engine",
         version="2.0.0",
         description=(
             "Deterministic, Monte-Carlo-based life-trajectory simulator. "
@@ -31,7 +31,7 @@ def create_app() -> FastAPI:
 
     @app.get("/")
     def root() -> dict[str, str]:
-        return {"service": "LifeOS v2", "docs": "/docs", "health": "/api/health"}
+        return {"service": "LifeOS", "docs": "/docs", "health": "/api/health"}
 
     return app
 

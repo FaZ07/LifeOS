@@ -1,4 +1,4 @@
-# LifeOS v2 — Counterfactual Decision Engine
+# LifeOS — Counterfactual Decision Engine
 
 > Deterministic simulation of your life as a dynamical system.
 > No ML. No API calls. No black boxes. Just math you can read.
@@ -8,7 +8,7 @@
 ## Vision
 
 Most "AI coaches" hand you an opinion from a language model and hope it
-sounds wise. LifeOS v2 takes the opposite bet: **model behaviour as a
+sounds wise. LifeOS takes the opposite bet: **model behaviour as a
 dynamical system, roll it forward hundreds of times, and let the winning
 trajectories tell you the policy.**
 
@@ -20,7 +20,7 @@ which single change moves the needle most.
 
 ## Why deterministic > black-box AI
 
-| Black-box LLM coach        | LifeOS v2 Decision Engine              |
+| Black-box LLM coach        | LifeOS Decision Engine                 |
 | -------------------------- | -------------------------------------- |
 | Non-reproducible           | Seeded → bit-identical reproduction    |
 | Can't explain its logic    | Every coefficient is in `constants.py` |

@@ -1,1 +1,1 @@
-"""LifeOS v2 core: deterministic modelling, simulation, scoring, policy."""
+"""LifeOS core: deterministic modelling, simulation, scoring, policy."""

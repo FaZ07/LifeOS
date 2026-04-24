@@ -44,7 +44,7 @@ export default function App() {
     <div className="app">
       <header className="hero">
         <div>
-          <div className="tag">LifeOS <span className="badge-accent">v2</span> · Counterfactual Decision Engine</div>
+          <div className="tag">LifeOS <span className="badge-accent">·</span> Counterfactual Decision Engine</div>
           <h1>Simulate your future. Read the policy. Ship yourself.</h1>
         </div>
         <div className="muted">Deterministic · Monte-Carlo · Zero ML</div>
